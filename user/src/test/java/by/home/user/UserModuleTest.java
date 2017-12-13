@@ -1,7 +1,10 @@
 package by.home.user;
 
+import by.home.user.model.User;
+import by.home.user.repository.UserRepository;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
@@ -12,8 +15,23 @@ import org.springframework.test.context.junit4.SpringRunner;
 @SpringBootTest
 public class UserModuleTest {
 
+    @Autowired
+    private UserRepository userRepository;
+
     @Test
     public void contextLoads() {
+
+    }
+
+    @Test
+    public void insertUser() {
+        User user = new User();
+        user.setName("user1");
+        user.setSurname("user1");
+        user.setEmail("user@user.us");
+        user.setLogin("sasha");
+
+        userRepository.save(user);
     }
 
 }
