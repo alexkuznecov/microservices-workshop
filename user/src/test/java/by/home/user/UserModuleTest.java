@@ -25,11 +25,10 @@ public class UserModuleTest {
 
     @Test
     public void insertUser() {
-        User user = new User();
+        User user = new User("sasha");
         user.setName("user1");
         user.setSurname("user1");
         user.setEmail("user@user.us");
-        user.setLogin("sasha");
 
         userRepository.save(user);
     }
