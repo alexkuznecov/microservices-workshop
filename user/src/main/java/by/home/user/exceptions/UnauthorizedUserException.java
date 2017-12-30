@@ -1,7 +1,8 @@
 package by.home.user.exceptions;
 
 /**
- * Created by alek on 15.12.17.
+ * @author alek
+ * @since 0.0.1
  */
 public class UnauthorizedUserException extends Exception {
 

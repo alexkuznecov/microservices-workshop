@@ -7,7 +7,8 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 /**
- * Created by alek on 14.12.17.
+ * @author alek
+ * @since 0.0.1
  */
 @Repository
 public interface CredentialsRepository extends MongoRepository<Credentials, String> {

@@ -10,7 +10,6 @@ import by.home.user.repository.CredentialsRepository;
 import by.home.user.repository.TokenRepository;
 import by.home.user.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.authentication.UserCredentials;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
@@ -18,7 +17,8 @@ import java.time.LocalDate;
 import java.util.List;
 
 /**
- * Created by alek on 15.12.17.
+ * @author alek
+ * @since 0.0.1
  */
 @Service
 public class UserService {

@@ -7,7 +7,8 @@ import org.springframework.data.mongodb.config.AbstractMongoConfiguration;
 import org.springframework.data.mongodb.repository.config.EnableMongoRepositories;
 
 /**
- * Created by alek on 13.12.17.
+ * @author alek
+ * @since 0.0.1
  */
 @Configuration
 @EnableMongoRepositories(basePackages = "by.home.user.repository")

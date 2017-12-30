@@ -8,7 +8,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * Created by alek on 14.12.17.
+ * @author alek
+ * @since 0.0.1
  */
 @RestController
 @RequestMapping("/api/auth")

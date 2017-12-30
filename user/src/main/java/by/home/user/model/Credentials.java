@@ -5,7 +5,8 @@ import lombok.Getter;
 import lombok.Setter;
 
 /**
- * Created by alek on 14.12.17.
+ * @author alek
+ * @since 0.0.1
  */
 @Data
 public class Credentials {

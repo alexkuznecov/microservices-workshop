@@ -8,7 +8,8 @@ import java.time.LocalDate;
 import java.util.UUID;
 
 /**
- * Created by alek on 15.12.17.
+ * @author alek
+ * @since 0.0.1
  */
 @Data
 public class Token {

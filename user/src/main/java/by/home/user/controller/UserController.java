@@ -6,7 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 /**
- * Created by alek on 31.12.17.
+ * @author alek
+ * @since 0.0.1
  */
 @RestController
 @RequestMapping("/users")
