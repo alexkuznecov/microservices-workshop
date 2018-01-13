@@ -7,7 +7,7 @@ import org.springframework.data.mongodb.core.MongoTemplate;
 
 /**
  * @author alek
- * @since 0.0.1
+ * @since 0.0.11
  */
 public class AnimeEAOImpl implements AnimeEAO {
 
